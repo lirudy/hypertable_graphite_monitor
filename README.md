@@ -10,9 +10,14 @@ first step:
   
   
   CARBON_SERVER = '{Your Graphite carbon IP}'
+  
   CARBON_PORT = 2003
   
   
 second step:
+
   run it:
+  
+  
      setsid python ht_mon.py &>/dev/null
+     
