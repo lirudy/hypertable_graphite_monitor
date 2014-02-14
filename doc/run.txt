@@ -1,0 +1,3 @@
+setsid python ht_mon.py &>/dev/null
+
+通过读取rrdtool的最新数据，来获取hypertable的状态信息
